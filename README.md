@@ -1,6 +1,6 @@
 # Hatsune Miku Grub Theme
 
-A theme of Hatune Miku for Grub!
+A theme of Hatsune Miku for Grub!
 
 ## Installation
 
