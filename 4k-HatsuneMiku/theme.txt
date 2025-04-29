@@ -1,0 +1,35 @@
+title-text: ""
+desktop-image: "background.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-font: "Unifont Regular 32"
+
++ boot_menu {
+  item_font = "Unifont Regullar 32"
+  left = 120
+  top = 47%
+  width = 1000
+  height = 100%
+  item_color = "#cccccc"
+  selected_item_color = "#ffffff"
+  icon_width = 72
+  icon_height = 72
+  item_icon_space = 20
+  item_height = 80
+  item_padding = 4
+  item_spacing = 40
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ label {
+  left = 120
+  top = 83%
+  align = "center"
+  id = "__timeout__"
+  font = "Unifont Regular 32"
+  text = "Selected OS will automatically start in %d seconds"
+  color = "#cccccc"
+}
